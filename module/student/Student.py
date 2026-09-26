@@ -26,6 +26,12 @@ class StudentClass:
         self.email = email
         self.password = password
 
-    def SetUserNamePassword(self, email, password):
-        self.SetUserName(email, password)
-
+  def studentdetails(self, full_name, date_of_birth, gender, mobile_number, email, password):
+        self.full_name = full_name
+        self.date_of_birth = date_of_birth
+        self.gender = gender
+        self.mobile_number = mobile_number
+        self.email = email
+        self.password = password
+         if len(mobile_number) != 10:
+            self.mobile_number = ("Mobile number must be 10 digits long.")
