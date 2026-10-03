@@ -16,19 +16,6 @@ cursor.execute("""
 """)
 
 
-
-cursor.execute("""
-    CREATE TABLE IF NOT EXISTS students (
-        id int PRIMARY KEY,
-        Name TEXT,
-        Email TEXT,
-        Phone int
-    );
-""")
-
-
-
-
 #save changes
 conn.commit()
 
