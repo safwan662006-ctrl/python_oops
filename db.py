@@ -22,12 +22,11 @@ cursor.execute("""
         id int PRIMARY KEY,
         Name TEXT,
         Email TEXT,
-        Phone int,
+        Phone int
     );
 """)
-cursor.execute("""
-    INSERT INTO students VALUES 101,'JOHN','john123@gmail.com',9856341254
-            """)
+
+
 
 
 #save changes
